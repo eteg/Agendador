@@ -1,0 +1,30 @@
+{
+  "name": "chatbotdodouglas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "google-auth-library": "^0.10.0",
+    "google-calendar": "^1.3.2",
+    "googleapis": "^19.0.0",
+    "lime-js": "^2.5.2",
+    "lime-transport-websocket": "^2.0.2",
+    "messaginghub-client": "^3.3.0",
+    "moment": "^2.18.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
